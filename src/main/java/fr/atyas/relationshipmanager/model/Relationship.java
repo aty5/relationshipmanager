@@ -10,6 +10,7 @@ public class Relationship implements Serializable {
     public Relationship() {
 
     }
+
     public Relationship(String name, String email, String jobTitle, String company, String phone, LocalDate meetingDate, String imageUrl, String context) {
         this.name = name;
         this.email = email;
@@ -106,8 +107,6 @@ public class Relationship implements Serializable {
     public void setContext(String context) {
         this.context = context;
     }
-
-
 
 
     @Override

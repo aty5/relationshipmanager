@@ -1,2 +1,7 @@
-package fr.atyas.relationshipmanager.exception;public class UserNotFoundException {
+package fr.atyas.relationshipmanager.exception;
+
+public class UserNotFoundException extends RuntimeException {
+    public UserNotFoundException(String message) {
+        super(message);
+    }
 }
